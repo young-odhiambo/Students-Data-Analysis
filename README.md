@@ -135,5 +135,74 @@ The original dataset was normalized into a **Star Schema** to improve model effi
 ---
 
 ## Schema
+![Image alt](https://github.com/young-odhiambo/Students-Data-Analysis/blob/68afc6b96d404f0710a11c7f12fd5a8afc10857d/Screenshot%202026-07-02%20142156.png)
+
+---
+
+### Fact Table
+
+**Fact Records**
+
+Contains transactional student records and numerical measures used for reporting.
+
+---
+
+### Dimension Tables
+
+***Dim Student***
+
+Stores demographic information about students.
+
+***Dim School***
+
+Stores school names and location information.
+
+***Dim Teacher***
+
+Contains teacher details linked to schools.
+
+***Dim Subject***
+
+Stores academic subject information.
+
+---
+
+# Relationships
+
+Each dimension table connects to the Fact table using a **One-to-Many (1:*)** relationship.
+
+| Dimension | Fact Table| Cardinality |
+|------------|-------------|-----------|
+|Dim Students | Facts Table| 1 : *|
+| Dim School | Facts Tables | 1 : * |
+| Dim Teacher | Facts Tables | 1 : * |
+| Dim Subject | Facts Table | 1 : * |
+
+---
 
 
+# Key Findings
+
+- 321 students were analyzed across 12 schools.
+- The average score is **59.06**.
+- Only **49%** of students passed while **51%** failed.
+- Students maintain an average attendance of **78%**.
+- Nairobi has the highest student enrollment.
+- Kiswahili is the highest-performing subject.
+- Mathematics and English require academic intervention.
+- Teachers are relatively evenly distributed across schools.
+- The student-to-teacher ratio is **1:54**.
+- Schools have outstanding fee balances totaling **KSh 1.60 million**.
+
+---
+
+# Recommendations
+
+- Improve Mathematics and English performance through targeted remedial programs.
+- Increase attendance beyond **78%** by implementing attendance monitoring initiatives.
+- Recruit additional teachers to reduce the current **1:54 student-to-teacher ratio**.
+- Prioritize fee collection in schools with the highest outstanding balances.
+- Replicate teaching practices from high-performing schools across lower-performing institutions.
+- Continue monitoring gender balance to maintain equitable student representation.
+
+---
