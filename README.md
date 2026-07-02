@@ -20,6 +20,14 @@ The dashboard was developed to answer the following questions:
 
 ---
 
+# Dashboard Overview
+![image alt](https://github.com/young-odhiambo/Students-Data-Analysis/blob/0923201452dd4943e3675af400e20eb9c727f64e/Screenshot%202026-07-01%20165111.png)
+
+
+---
+
+
+
 # Key Insights
 
 ## Student Enrollment
@@ -119,3 +127,13 @@ Schools with the highest fee balances include:
 These schools account for the largest proportion of unpaid fees and may require targeted fee collection strategies.
 
 ---
+
+# Data Modelling
+
+The original dataset was normalized into a **Star Schema** to improve model efficiency and simplify reporting.
+
+---
+
+## Schema
+
+
