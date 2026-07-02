@@ -1,6 +1,6 @@
 # Student Data Analysis
 
-An interactive Power BI dashboard that analyzes student enrollment, academic performance, attendance, teacher allocation, and school financial data across 12 schools.
+An interactive Power BI report that analyzes student enrollment, academic performance, attendance, teacher allocation, and school financial data across 12 schools.
 The project demonstrates the complete Business Intelligence workflow, from data transformation and dimensional modelling to interactive dashboard development.
 
 ---
